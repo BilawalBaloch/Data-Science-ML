@@ -134,11 +134,8 @@ The primary goal of this notebook is to:
 
 **Key Topics Covered:**
 
-  * **Random Forest Regressor:**
-      * Ensemble learning concept (bagging).
-      * Training multiple decision trees.
-      * Aggregating predictions for robust output.
-      * Hyperparameter tuning (e.g., `n_estimators`, `max_depth`).
+.
+.
   * **Support Vector Regressor (SVR):**
       * Introduction to Support Vector Machines for regression.
       * Understanding the epsilon-insensitive tube.
@@ -146,6 +143,12 @@ The primary goal of this notebook is to:
       * Hyperparameter tuning (e.g., `C`, `epsilon`, `gamma`).
   * **Data Preprocessing:** Likely includes handling missing values, feature scaling (especially important for SVR), and encoding categorical features if present.
   * **Model Evaluation:** Metrics relevant to regression tasks such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared ($R^2$) score.
+  * **Random Forest Regressor:**
+      * Ensemble learning concept (bagging).
+      * Training multiple decision trees.
+      * Aggregating predictions for robust output.
+      * Hyperparameter tuning (e.g., `n_estimators`, `max_depth`).
+
 
 **Usage:**
 This notebook can be run locally using a Jupyter environment or directly opened in Google Colab. It requires standard machine learning libraries such as `scikit-learn`, `pandas`, and `numpy`.
